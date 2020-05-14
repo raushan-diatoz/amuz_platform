@@ -1,0 +1,25 @@
+div#header
+{
+width:90% !important;
+margin: auto !important; 
+}
+
+div#time
+{
+width:90% !important;
+margin: auto !important; 
+}
+
+.summary
+{
+display:none !important;
+}
+#yippsterlogo
+{
+float:none !important;
+}
+#merchantlogo
+{
+display:none !important;
+}
+

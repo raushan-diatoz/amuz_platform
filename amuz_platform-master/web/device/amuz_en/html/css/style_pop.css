@@ -1,0 +1,46 @@
+
+.simplePopup {
+display:none;
+position:absolute;
+background:#fff;
+z-index:3;
+padding:12px;
+width:290px;
+min-width:290px;
+color: #000;
+   left: 50%;
+   top: 250px; 
+   margin-left: -150px;
+   margin-top: -150px;
+}
+
+
+
+.simplePopupBackground {
+display:none;
+background:#000;
+position:fixed;
+height:100%;
+width:100%;
+top:0;
+left:0;
+z-index:1;
+}
+
+.simpepopupplay{
+display:none;
+position:absolute;
+background:#fff;
+z-index:3;
+padding:12px;
+width:270px;
+min-width:270px;
+color: #000;
+   left: 50%;
+   top: 250px; 
+   margin-left: -150px;
+   margin-top: -150px;
+
+
+
+}

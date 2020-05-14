@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Amuze API</title>
+    <link rel="stylesheet" type="text/css" href="site.css" media="screen" />
+    <style type="text/css">
+      body { 
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 15px;
+	color: #444;
+	margin-right: 24px;
+}
+
+h1	{
+	font-size: 25px;
+}
+h2	{
+	font-size: 20px;
+}
+h3	{
+	font-size: 16px;
+	font-weight: bold;
+}
+hr	{
+	height: 1px;
+	border: 0;
+	color: #ddd;
+	background-color: #ddd;
+	display: none;
+}
+
+.app-desc {
+  clear: both;
+  margin-left: 20px;
+}
+.param-name {
+  width: 100%;
+}
+.license-info {
+  margin-left: 20px;
+}
+
+.license-url {
+  margin-left: 20px;
+}
+
+.model {
+  margin: 0 0 0px 20px;
+}
+
+.method {
+  margin-left: 20px;
+}
+
+.method-notes	{
+	margin: 10px 0 20px 0;
+	font-size: 90%;
+	color: #555;
+}
+
+pre {
+  padding: 10px;
+  margin-bottom: 2px;
+}
+
+.http-method {
+ text-transform: uppercase;
+}
+
+pre.get {
+  background-color: #0f6ab4;
+}
+
+pre.post {
+  background-color: #10a54a;
+}
+
+pre.put {
+  background-color: #c5862b;
+}
+
+pre.delete {
+  background-color: #a41e22;
+}
+
+.huge	{
+	color: #fff;
+}
+
+pre.example {
+  background-color: #f3f3f3;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+code {
+  white-space: pre;
+}
+
+.nickname {
+  font-weight: bold;
+}
+
+.method-path {
+  font-size: 1.5em;
+  background-color: #0f6ab4;
+}
+
+.up {
+  float:right;
+}
+
+.parameter {
+  width: 500px;
+}
+
+.param {
+  width: 500px;
+  padding: 10px 0 0 20px;
+  font-weight: bold;
+}
+
+.param-desc {
+  width: 700px;
+  padding: 0 0 0 20px;
+  color: #777;
+}
+
+.param-type {
+  font-style: italic;
+}
+
+.field-label {
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+
+.field-items	{
+	padding: 0 0 15px 0;
+	margin-bottom: 15px;
+}
+
+.return-type {
+  clear: both;
+  padding-bottom: 10px;
+}
+
+.param-header {
+  font-weight: bold;
+}
+
+.method-tags {
+  text-align: right;
+}
+
+.method-tag {
+  background: none repeat scroll 0% 0% #24A600;
+  border-radius: 3px;
+  padding: 2px 10px;
+  margin: 2px;
+  color: #FFF;
+  display: inline-block;
+  text-decoration: none;
+}
+    </style>
+  </head>
+  <body>
+  <h1>Amuze API</h1>
+    <div class="app-desc">API calls and their Descripton</div>
+    
+    
+    <div class="app-desc">API Version: 2.0.0</div>
+    <div class="license-info">base url: http://amuze.co.in:8283/api/(If hits is from the box base url will be: http://192.10.2.1/api/)</div>
+    <div class="license-url">http://apache.org/licenses/LICENSE-2.0.html</div>
+  <h2>Access</h2>
+  
+
+  <h2><a name="__Methods">Methods</a></h2>
+ 
+
+  
+  <h2>Table of Contents </h2>
+  <div class="method-summary"></div>
+   <p>Reference api calls</p>
+  <ol>
+  
+  
+ 
+  <li><a href="http://amuze.co.in:8283/api/ws.php?action=ch"><code><span class="http-method">get</span> /ws.php?action=ch</code></a></li>
+  
+  <li><a href="http://amuze.co.in:8283/api/ws.php?action=cv&amp;couponcode=playmp4&amp;medianame=basha"><code><span class="http-method">get</span> /ws.php?action=cv&amp;couponcode=playmp4&amp;medianame=basha</code></a></li>
+  
+  <li><a href="http://amuze.co.in:8283/api/ws.php?action=pi&amp;phonenum=8867895919&amp;useragent=firefox&amp;mediapath=directorypathofmedia&amp;medianame=mediatitle&amp;adname=adname&amp;adpath=directorypathofad&amp;couponcode=playmp4"><code><span class="http-method">get</span> /ws.php?action=pi&amp;phonenum=8867895919&amp;useragent=firefox&amp;mediapath=directorypathofmedia&amp;medianame=mediatitle&amp;adname=adname&amp;adpath=directorypathofad</code></a></li>
+  
+  <li><a href="http://amuze.co.in:8283/api/ws.php?action=rg&amp;phonenum=8867895919"><code><span class="http-method">get</span> /ws.php?action=rg&amp;phonenum=8867895919</code></a></li>
+  
+  <li><a href="http://amuze.co.in:8283/api/ws.php?action=vp&amp;phonenum=8867895919&amp;otp=123456"><code><span class="http-method">get</span> /ws.php?action=vp&amp;phonenum=8867895919&amp;otp=123456</code></a></li>
+  <li><a href="http://amuze.co.in:8283/api/ws.php?action=dr&amp;uuid=f40430e6-8c22-11e5-8862-d2e3e1e19bd0"><code><span class="http-method">get</span> /ws.php?action=dr&amp;uuid=f40430e6-8c22-11e5-8862-d2e3e1e19bd0</code></a></li>
+
+  <li><a href="http://amuze.co.in:8283/api/ws.php?action=cf"><code><span class="http-method">get</span> /ws.php?action=cf</code></a></li>
+  
+  
+  
+  </ol>
+  
+
+  
+  
+  
+  
+  <div class="method"><a name="ws.php?action=chGet"/>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /ws.php?action=ch</code></pre></div>
+    <div class="method-summary">Display all channels (<span class="nickname">ws.php?action=chGet</span>)</div>
+    
+    <div class="method-notes">All the subfolders of a subfolder in the main folder will display as channels.\n</div>
+   
+    
+    
+  </div> <!-- method -->
+  <hr/>
+  
+  <div class="method"><a name="ws.php?action=cv&amp;couponcode=playmp4&amp;medianame=bashaGet"/>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /ws.php?action=cv&amp;couponcode=playmp4&amp;medianame=basha</code></pre></div>
+    <div class="method-summary">Coupon code validation (<span class="nickname">ws.php?action=cv&amp;couponcode=playmp4&amp;medianame=bashaGet</span>)</div>
+    
+    <div class="method-notes">user entered coupon code is validated with cheat code and series of coupon codes generated randomly. \nCurrently for that particular media to the user it is opened for 24 hours. user can able to watch any number of times without 2nd coupon&lt;br/&gt;\nEstimated parameters couponcode and title of mediafile\n</div>
+    <div> <h4>Parameters Explanation</h4> 
+    <p>couponcode is the coupon number which the user will get physically to watch the premium content</p>
+    <p>medianame is the title of medifile which  will get in the response on clicking the each channel</p>
+    </div> 	
+    <div> <h4>Responses</h4> 
+    <p>response_code: If the response code is 1, user entered a valid coupon or cheatcode, if response_code is 0 user entered a invalid copon</p>
+    <p>response: response is like a description for the response_code for our understanding, if response is zero response will have the reason why it failed</p>
+    <p>coupontype: if coupon type is 1, user can able to watch every media content, coupon type 2, user should able to watch only particular media clicked</p>
+    <p> validatetill: valiidity date expired of that coupon, if it execeeds user should not gain watch that video</p> 
+    </div>	
+    
+    
+  </div> <!-- method -->
+  <hr/>
+  
+  <div class="method"><a name="ws.php?action=pi&amp;phonenum=8867895919&amp;useragent=firefox&amp;mediapath=directorypathofmedia&amp;medianame=mediatitle&amp;adname=adname&amp;adpath=directorypathofadGet"/>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /ws.php?action=pi&amp;phonenum=8867895919&amp;useragent=firefox&amp;mediapath=directorypathofmedia&amp;medianame=mediatitle&amp;adname=adname&amp;adpath=directorypathof&ampcouponcode=playmp4ad</code></pre></div>
+    <div class="method-summary">call to piwik log analytics (<span class="nickname">ws.php?action=pi&amp;phonenum=8867895919&amp;useragent=firefox&amp;mediapath=directorypathofmedia&amp;medianame=mediatitle&amp;adname=adname&amp;adpath=directorypathofadGet</span>)</div>
+    <div class="method-notes">user entered coupon code is validated with cheat code and series of coupon codes generated randomly. \nCurrently for that particular media to the user it is opened for 24 hours. user can able to watch any number of times without 2nd coupon&lt;br/&gt;\nEstimated parameters couponcode and title of mediafile\n</div>
+    <div> <h4>Parameters Explanation</h4>
+    <p>phonenum if the user is registered, send the user registered mobile number if not send empty</p>
+    <p>useragent these parameter is to capture the user device information like manufacturer and os and tablet or mobile or phone</p>
+    <p>adpath is the json object adpath in the previous response</p>
+    <p>mediapath is the json object mediapath in the previous response</p>
+    <p>adname currently we are not maintaining any advertisement names, send same as the adpath</p>  	
+    <p>medianame is the json object title in the previous response</p>
+    <p>couponcode if user used coupon for playing the particular content send that code, otherwise send empty</p>
+    </div>
+    <div> <h4>Responses</h4> 
+    <p>if success, Empty Response</p>
+    <p>if failed, response_code will be 0 and description will be in response.</p>
+	
+    </div>		
+   
+    
+    
+  </div> <!-- method -->
+  <hr/>
+  
+  <div class="method"><a name="ws.php?action=rg&amp;phonenum=8867895919Get"/>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /ws.php?action=rg&amp;phonenum=8867895919</code></pre></div>
+    <div class="method-summary">registration of user with phone number (<span class="nickname">ws.php?action=rg&amp;phonenum=8867895919Get</span>)</div>
+    <div class="method-notes">if response_code is 1, user is already existed in database and \nif response_code is 2, new user and OTP will come as an response, after entering the otp the action=vp starts\n</div>
+    <div> <h4>Parameters Explanation</h4> 
+    <p>phonenum is the user entere mobile number for registration</p>
+    </div> 	
+    <div> <h4>Responses</h4> 
+    <p> If the response code is 1, user will get a otp to his registered mobile number and in object response you will get an otp which have been sent to the registered mobile number and in senderid object u will get a senderid phonenumber to pick the otp automatically, UUID helps to check the delivery report of the sms</p>
+    <p> If the response code is 0, sending sms to registered mobile number is failed. reason you will get in object response</p>
+    <p> If the response code is 2, user is registerd with amuz but he dint validated otp in response you will get otp sent to his mobile previously</p>
+    </div>
+    
+
+    
+
+    
+    
+    
+  </div> <!-- method -->
+  <hr/>
+  
+  <div class="method"><a name="ws.php?action=vp&amp;phonenum=8867895919&amp;otp=123456Get"/>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /ws.php?action=vp&amp;phonenum=8867895919&amp;otp=123456</code></pre></div>
+    <div class="method-summary">validating of user with phone number (<span class="nickname">ws.php?action=vp&amp;phonenum=8867895919&amp;otp=123456Get</span>)</div>
+    
+    <div class="method-notes">if response_code is 1, phone number is validated\nif response_code is 0, user entered invalid otp\n device will be 0 if sms send via modem of the device and it will be 1 if sms sent via cloud api</div>
+
+    <div> <h4>Parameters Explanation</h4> 
+    <p>phonenum is the user entere mobile number for registration</p>
+    </div> 	
+    <div> <h4>Responses</h4> 
+    <p> If the response code is 1, user entered otp is successfully validated with the mobile number </p>
+    <p> If the response code is 0, invalid otp or description will be available in response</p>
+    </div>
+ </div> <!-- method -->
+
+  <div class="method"><a name="ws.php?action=dr&amp;uuid=f40430e6-8c22-11e5-8862-d2e3e1e19bd0Get"/>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /ws.php?action=dr&amp;uuid=f40430e6-8c22-11e5-8862-d2e3e1e19bd0</code></pre></div>
+    <div class="method-summary">validating of user with phone number (<span class="nickname">ws.php?action=dr&amp;uuid=f40430e6-8c22-11e5-8862-d2e3e1e19bd0Get</span>)</div>
+    
+    <div class="method-notes">if response_code is 1, sms delivered successfully, \nif response_code is 0 sms delivered unsuccessfull.(you have to send the UUID which you have received in the call action=rg while sending sms to the particular number). </div>
+
+    <div> <h4>Parameters Explanation</h4> 
+    <p>phonenum is the user entere mobile number for registration</p>
+    </div> 	
+    <div> <h4>Responses</h4> 
+    <p> If the response code is 1,  sms delivered.</p>
+    <p> If the response code is 0, sms undelivered.</p>
+    </div>
+ </div> <!-- method -->
+  <hr/>
+  <div class="method"><a name="ws.php?action=cfGet"/>
+    <div class="method-path">
+    <a class="up" href="#__Methods">Up</a>
+    <pre class="get"><code class="huge"><span class="http-method">get</span> /ws.php?action=cf</code></pre></div>
+    <div class="method-summary">To get all the required configurations like invalidtimeout, couponflow, registrartion flow (<span class="nickname">ws.php?action=cfGet</span>)</div>
+    
+    <div class="method-notes">if response_code is 1, you can able to receive the configuration parameteres if any configuration is 0, you have to disable the particular flow, Example if the registration flow is zero, we should stop collecting the phone number from user and sending otp for registration etc.,</div>  
+  
+  
+  
+  
+
+
+  [ Jump to <a href="#__Methods">Methods</a> ]
+
+  </div>
+  
+  
+  </body>
+</html>

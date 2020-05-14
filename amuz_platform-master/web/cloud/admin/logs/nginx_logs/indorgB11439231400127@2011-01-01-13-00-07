@@ -1,0 +1,2 @@
+192.10.2.90 - - [01/Jan/2011:12:01:09 +0000]  "GET / HTTP/1.1" 200 3833 "-" "-"
+61.216.2.14 - - [01/Jan/2011:12:56:25 +0000]  "GET / HTTP/1.1" 400 583 "-" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36"
